@@ -31,10 +31,10 @@
        </ul>
        <!-- End Navbar links -->
         <!--Start Nav socials -->
-        <ul class="lg:flex lg:items-center hidden">
-          <li class="mr-3 bg-red-400 text-red-100 px-4 py-2 rounded-full"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-          <li class="mr-3 bg-red-400 text-red-100 px-4 py-2 rounded-full"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-          <li class="mr-3 bg-red-400 text-red-100 px-4 py-2 rounded-full"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <ul class="lg:flex lg:items-center text-sm hidden">
+          <li class="mr-3 text-red-100"><a href="#" class="bg-red-400 rounded-full py-3 px-4"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li class="mr-3 text-red-100"><a href="#" class="bg-red-400 rounded-full p-3"><i class="fa-brands fa-twitter"></i></a></li>
+          <li class="mr-3 text-red-100 "><a href="#" class="bg-red-400 rounded-full py-3 px-[13px]"><i class="fa-brands fa-instagram"></i></a></li>
         </ul>
         <!--End Nav socials -->
        <!--End Navbar menu -->
@@ -222,7 +222,7 @@
             <form action="" class="w-full mx-auto">
               <label for="subscription" class="block text-red-100 mb-2 text-base capitalize text-center">Newsletter subscription</label>
               <div class="flex items-center justify-center">
-                <input type="text" class="border p-2.5 outline-none w-9/12" placeholder="Enter your email">
+                <input id="subscription" type="email" class="border p-2.5 outline-none w-9/12" placeholder="Enter your email" required>
                 <button class="bg-slate-300 py-[11.2px] px-3 border-0 outline-none font-medium text-center rounded-tr-full rounded-br-full">Subscribe</button>
               </div> 
             </form>
